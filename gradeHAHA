@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   cout << "Enter your score 1-100" << endl;
+   int x ;
+   cin >> x;
+   if(x<=49 && x>=0) {
+       cout << " grade 0" << endl;
+   }else if(50<=x && x<=54) {
+       cout << "grade 1" << endl;
+   }else if(55<=x && x<=59) {
+       cout << "grade 1.5" << endl;
+   }else if(60<=x && x<=64) {
+       cout << "grade 2" << endl;
+   }else if(65<=x && x<=69) {
+       cout << "grade 2.5" << endl;
+   }else if(70<=x && x<=74) {
+       cout << "grade 3" << endl;
+   }else if(75<=x && x<=79) {
+       cout << "grade 3.5" << endl;
+   }else if(80<=x && x<=100) {
+       cout << "grade 4" << endl;
+   }else  {
+       cout << "invalid data " << endl;
+       cout << "plase enter score 1-100" << endl;
+   }
+    
+    return 0;
+}
