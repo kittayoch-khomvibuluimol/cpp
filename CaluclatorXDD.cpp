@@ -48,6 +48,16 @@ int main() {
         cout << endl;
         cout << "-----------------------------" << endl;
         cout << num1 << " ÷ " << num2 << " = " << num1/num2 << endl;
+    }else if(op==5) {
+        cout << "Modulus funtion" << endl;
+        cout << "Enter num1 : ";
+        cin >> num1;
+        cout << endl;
+        cout << "Enter num2 : ";
+        cin >> num2;
+        cout << endl;
+        cout << "-----------------------------" << endl;
+        cout << num1 << " % " << num2 << " = " << num1%num2 << endl;
     } else {
         cout << "invalid data" << endl;
     }
