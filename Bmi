@@ -16,15 +16,15 @@ int main() {
         
     }else{
         cout << "invalid data plase try again" << endl;
-    }if(18.5<=bmi && 22.9>=bmi){
+    }if(bmi>=18.5 && bmi<=22.9){
         cout << "Normal" << endl;
-    }else if(23<=bmi && 24.9>=bmi){
+    }else if(bmi>=23 && bmi<=24.9){
         cout << "Over weight" << endl;
-    }else if(25<=bmi && 29.9>=bmi){
+    }else if(bmi>=25 && bmi<=29.9){
         cout << "Grade 1 obesity" << endl;
-    }else if(30<=bmi && 34.9>=bmi){
+    }else if(bmi>=30 && bmi<=34.9){
         cout << "Grade 2 obesity" << endl;
-    }else if(35<=bmi){
+    }else if(bmi>=35){
         cout << "Grade 3 obesity" << endl;
     }else {
         cout << "Underweight" << endl;
