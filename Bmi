@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double he,we,bmi;
+    cout << "Bmi " << endl;
+    cout << "Plase enter your weight" << endl;
+    cin >> we;
+    cout << "Plase enter your height CM" << endl;
+    cin >> he;
+    if(he>0 && we>0){
+        double heM = he/100;
+        double heMI = heM*heM;
+        double bmi = we/heMI;
+        cout << "Bmi " << we/heMI << endl;
+        
+    }else{
+        cout << "invalid data plase try again" << endl;
+    }if(18.5<=bmi && 22.9>=bmi){
+        cout << "Normal" << endl;
+    }else if(23<=bmi && 24.9>=bmi){
+        cout << "Over weight" << endl;
+    }else if(25<=bmi && 29.9>=bmi){
+        cout << "Grade 1 obesity" << endl;
+    }else if(30<=bmi && 34.9>=bmi){
+        cout << "Grade 2 obesity" << endl;
+    }else if(35<=bmi){
+        cout << "Grade 3 obesity" << endl;
+    }else {
+        cout << "Underweight" << endl;
+    }
+    
+
+    return 0;
+}
